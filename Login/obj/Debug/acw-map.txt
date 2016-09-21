@@ -1,0 +1,16 @@
+Login.EditActivity, Login;md533583cc845b761e36e0b683119bc5692.EditActivity
+Login.EditActivity, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.EditActivity
+Login.EditActivity;md533583cc845b761e36e0b683119bc5692.EditActivity
+login.EditActivity;md533583cc845b761e36e0b683119bc5692.EditActivity
+Login.MainActivity, Login;md533583cc845b761e36e0b683119bc5692.MainActivity
+Login.MainActivity, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.MainActivity
+Login.MainActivity;md533583cc845b761e36e0b683119bc5692.MainActivity
+login.MainActivity;md533583cc845b761e36e0b683119bc5692.MainActivity
+Login.UsersActivity, Login;md533583cc845b761e36e0b683119bc5692.UsersActivity
+Login.UsersActivity, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.UsersActivity
+Login.UsersActivity;md533583cc845b761e36e0b683119bc5692.UsersActivity
+login.UsersActivity;md533583cc845b761e36e0b683119bc5692.UsersActivity
+Login.UsersListAdapter, Login;md533583cc845b761e36e0b683119bc5692.UsersListAdapter
+Login.UsersListAdapter, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.UsersListAdapter
+Login.UsersListAdapter;md533583cc845b761e36e0b683119bc5692.UsersListAdapter
+login.UsersListAdapter;md533583cc845b761e36e0b683119bc5692.UsersListAdapter
