@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollViewEdit"
+    android:fillViewport="true"
+    android:layout_margin="25dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:text="Username"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameLabel"
+            android:labelFor="@+id/usernameSave"
+            android:textColor="@color/secondaryColor"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameSave"
+            android:inputType="text" />
+        <TextView
+            android:text="Password"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLabel"
+            android:labelFor="@+id/passwordSave"
+            android:textColor="@color/secondaryColor"
+            android:textStyle="bold" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordSave" />
+        <TextView
+            android:text="First Name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameLabel"
+            android:labelFor="@+id/firstNameSave"
+            android:textColor="@color/secondaryColor"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameSave" />
+        <TextView
+            android:text="Last Name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastNameLabel"
+            android:labelFor="@+id/lastNameSave"
+            android:textColor="@color/secondaryColor"
+            android:textStyle="bold" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastNameSave" />
+        <CheckBox
+            android:text="Admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adminRadioButton"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorsSave"
+            android:layout_marginTop="12.5dp"
+            android:textColor="@color/errorsRed"
+            android:gravity="center"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15.0dp"
+            android:layout_marginBottom="15.0dp">
+            <Button
+                android:text="Delete"
+                android:id="@+id/deleteButton"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40.0dp"
+                android:backgroundTint="#ff002984"
+                android:textColor="@color/primaryColorText" />
+            <Button
+                android:text="Save"
+                android:id="@+id/saveButton"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#ffff4081" />
+        </LinearLayout>
+        <Button
+            android:text="Cancel"
+            android:layout_width="112.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelButton" />
+    </LinearLayout>
+</ScrollView>

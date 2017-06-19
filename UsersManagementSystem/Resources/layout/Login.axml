@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_margin="25dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:src="@drawable/group"
+            android:layout_width="match_parent"
+            android:layout_height="78.0dp"
+            android:id="@+id/logo" />
+        <TextView
+            android:text="Users Management System"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/primaryColorDark" />
+        <TextView
+            android:text="Made by Alexandra Valkova, PU, STD, 1401681075"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_marginBottom="15dp" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameLogin"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="12.5dp"
+            android:inputType="text"
+            android:textColorHint="@color/secondaryColorLight" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLogin"
+            android:hint="Password"
+            android:layout_marginBottom="12.5dp"
+            android:textColorHint="@color/secondaryColorLight" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorsLogin"
+            android:layout_marginBottom="12.5dp"
+            android:textColor="@color/errorsRed"
+            android:textStyle="bold"
+            android:layout_marginLeft="0.0dp"
+            android:gravity="center" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:text="Sign Up"
+                android:id="@+id/registerButton"
+                android:layout_width="135.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30.0dp" />
+            <Button
+                android:text="Log In"
+                android:id="@+id/loginButton"
+                android:layout_width="135.0dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#ffff4081" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

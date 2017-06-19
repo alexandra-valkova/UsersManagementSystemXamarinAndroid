@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:text="Add user"
+            android:id="@+id/addUserButton"
+            android:layout_width="120.0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="40.0dp"
+            android:backgroundTint="#ffff4081" />
+        <Button
+            android:text="Log Out"
+            android:layout_width="120.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/logoutButton"
+            android:backgroundTint="#ff002984"
+            android:textColor="@color/primaryColorText" />
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/list" />
+</LinearLayout>
