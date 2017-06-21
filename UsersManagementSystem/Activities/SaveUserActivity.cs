@@ -102,6 +102,7 @@ namespace UsersManagementSystem.Activities
                 }
 
                 Finish();
+                Toast.MakeText(this, "User saved!", ToastLength.Short).Show();
             }
 
             return;

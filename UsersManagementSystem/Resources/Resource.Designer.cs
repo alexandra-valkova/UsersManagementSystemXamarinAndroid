@@ -112,6 +112,12 @@ namespace UsersManagementSystem
 			// aapt resource value: 0x7f070011
 			public const int adminRadioButton = 2131165201;
 			
+			// aapt resource value: 0x7f070002
+			public const int applicationAuthor = 2131165186;
+			
+			// aapt resource value: 0x7f070001
+			public const int applicationTitle = 2131165185;
+			
 			// aapt resource value: 0x7f070015
 			public const int cancelButton = 2131165205;
 			
@@ -162,12 +168,6 @@ namespace UsersManagementSystem
 			
 			// aapt resource value: 0x7f070008
 			public const int scrollViewEdit = 2131165192;
-			
-			// aapt resource value: 0x7f070001
-			public const int textView1 = 2131165185;
-			
-			// aapt resource value: 0x7f070002
-			public const int textView2 = 2131165186;
 			
 			// aapt resource value: 0x7f070009
 			public const int usernameLabel = 2131165193;
