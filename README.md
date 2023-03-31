@@ -1,10 +1,10 @@
 # Users Management System : Xamarin.Android
-A simple CRUD application for managing users written on Xamarin.Android and using SQLite.
+A simple CRUD mobile application 📱 for managing users, written on Xamarin.Android and using SQLite.
 
 ## Screenshots
 - [Screenshot of Login/Signup page](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-loginsignup-page)
 - [Screenshot of Users (Main) page](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-users-main-page)
-- [Screenshot of edit page when selecting a user](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-edit-page-when-selecting-an-user)
+- [Screenshot of edit page when selecting a user](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-edit-page-when-selecting-a-user)
 - [Screenshot of add new user page](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-add-new-user-page)
 - [Screenshot of add/edit user page validation: fields are required](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-addedit-user-page-validation-fields-are-required)
 - [Screenshot of adding/editing user with username that already exists](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-addingediting-user-with-username-that-already-exists)
@@ -46,3 +46,5 @@ A simple CRUD application for managing users written on Xamarin.Android and usin
 
 ### Screenshot of signing up with username that already exists
 ![screenshot of users page](/screenshots/Screenshot_1497872276.png?raw=true)
+
+[⬆️ Back To Top](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#users-management-system--xamarinandroid)
