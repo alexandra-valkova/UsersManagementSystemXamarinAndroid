@@ -1,5 +1,5 @@
 # Users Management System : Xamarin.Android
-A simple CRUD mobile application 📱 for managing users, written on Xamarin.Android and using SQLite.
+A simple CRUD mobile application :iphone: for managing users, written on Xamarin.Android and using SQLite.
 
 ## Screenshots
 - [Screenshot of Login/Signup page](https://github.com/alexandra-valkova/UsersManagementSystemXamarinAndroid#screenshot-of-loginsignup-page)
